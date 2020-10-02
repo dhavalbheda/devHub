@@ -1,5 +1,5 @@
 client\node_modules
 server\node_modules
-server\config
+server\config\default.js
 client\.git
 server\.git

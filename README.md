@@ -31,3 +31,32 @@ It will run Server at **5000 Port** Client at **3000 Port**
 * Client will run : <span style='color:blue'>http://localhost:3000</span>
 
 
+
+***
+**Note**
+* Before Perform Above Task,  User Have To Perform Following Step:
+
+* 1. create **config** folder in server dir.
+* 2. create default.json file in config folder
+* 3. create json object with 4 key
+
+**mongoURI** :- Atlas Connection String
+
+**jwtToken** :- JWT Token Secret
+
+**githubid** :- GitHub OAuth App Client ID (For Showing User Git Repo, Need to Create OAuth App) 
+
+**githubSecret** :- GitHub OAuth App Client Secret
+
+*Example*
+
+* config/default.json 
+
+{
+    
+    "mongoURI": <Atlas_Connction_String>,
+    "jwtToken": "JWT_Token_Secret",
+    "githubid": <ClientID>,
+    "githubSecret": <ClientSecret>  
+    
+}
